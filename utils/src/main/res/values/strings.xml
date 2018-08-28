@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Utils</string>
+    <string name="text_distance_m">%d m</string>
+    <string name="text_distance_km">%.1f km</string>
 </resources>
