@@ -4,7 +4,7 @@
 How to use </br>
 To get a GEEKUp Android Utils into your project:
 
-Step 1. Add the JitPack repository to your build file
+Step 1. Add the JitPack repository to your build file </br>
 Add it in your root build.gradle at the end of repositories:
 
 	allprojects {
@@ -17,5 +17,5 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	   implementation 'com.github.geekupvn:android_utils:master'
+	   	implementation 'com.github.geekupvn:android_utils:master'
 	}
