@@ -19,3 +19,7 @@ Step 2. Add the dependency
 	dependencies {
 	   	implementation 'com.github.geekupvn:android_utils:master'
 	}
+
+Step 3. Initialize
+
+Add `ScreenUtils.init(context);` or `StringUtils.init(context);` to method `onCreate` in `YourApplication`
