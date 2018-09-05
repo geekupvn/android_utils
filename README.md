@@ -21,5 +21,15 @@ Step 2. Add the dependency
 	}
 
 Step 3. Initialize
-
-Add `ScreenUtils.init(context);` or `StringUtils.init(context);` to method `onCreate` in `YourApplication`
+  
+```java
+public class MyApplication extends Application {
+	@Override
+    	public void onCreate() {
+        	super.onCreate();
+		ScreenUtils.init(context);
+		// or
+		StringUtils.init(context);
+	}
+}
+```
