@@ -1,7 +1,9 @@
 ## GEEKUp Android Utils
 [![](https://jitpack.io/v/geekupvn/android_utils.svg)](https://jitpack.io/#geekupvn/android_utils)
 
-How to use </br>
+Current, this library contain `StringUtils` vs `ScreenUtils`. It include some usefull method for you push up time to release feature in your project
+
+### How to use </br>
 To get a GEEKUp Android Utils into your project:
 
 Step 1. Add the JitPack repository to your build file </br>
