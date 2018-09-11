@@ -1,11 +1,7 @@
 package vn.geekup.geekupandroidsample;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.AppCompatEditText;
-import android.text.TextUtils;
-
-import vn.geekup.utils.ScreenUtils;
+import android.support.v7.app.AppCompatActivity;
 
 public class HomeActivity extends AppCompatActivity {
 

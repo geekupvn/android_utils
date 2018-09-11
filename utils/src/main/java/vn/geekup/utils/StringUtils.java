@@ -209,6 +209,14 @@ public class StringUtils {
         return text == null || text.isEmpty() || text.trim().isEmpty();
     }
 
+    /**
+     * Return in bounds (allocated by the caller) the smallest rectangle that
+     * encloses all of the characters, with an implied origin at (0,0).
+     *
+     * @param text string to measure and return its bounds
+     * @param textView textView will contain @text
+     * @return the unioned bounds of all the text. Must be allocated by the caller
+     */
     public static Rect getBoundString(TextView textView, String text) {
         Rect bounds = new Rect();
         Paint textPaint = textView.getPaint();
