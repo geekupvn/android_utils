@@ -1,7 +1,7 @@
 ## GEEKUp Android Utils
 [![](https://jitpack.io/v/geekupvn/android_utils.svg)](https://jitpack.io/#geekupvn/android_utils)
 
-Current, this library contain `StringUtils` vs `ScreenUtils`. It include some usefull method for you accelerate time to release feature in your project
+Current, this library contain `StringUtils` & `ScreenUtils` & `DateUtils`. It include some usefull method for you accelerate time to release feature in your project
 
 ### How to use </br>
 To get a GEEKUp Android Utils into your project:
@@ -29,9 +29,11 @@ public class MyApplication extends Application {
 	@Override
     	public void onCreate() {
         	super.onCreate();
-		ScreenUtils.init(context);
+		ScreenUtils.init(this);
 		// or
-		StringUtils.init(context);
+		StringUtils.init(this);
+		// or
+		DateUtils.init(this)
 	}
 }
 ```
