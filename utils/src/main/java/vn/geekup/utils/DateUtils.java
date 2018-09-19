@@ -202,7 +202,7 @@ public class DateUtils {
      * @return end today in millisecond
      */
     public static long getEndTodayInMillis() {
-        return getStartTodayInMillis() - 1;
+        return getStartTodayInMillis() + Constants.A_DAY_IN_MILLIS - 1;
     }
 
     /**
