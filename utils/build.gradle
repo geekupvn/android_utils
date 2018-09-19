@@ -4,6 +4,8 @@ def DEFAULT_COMPILE_SDK_VERSION             = 27
 def DEFAULT_TARGET_SDK_VERSION              = 27
 def DEFAULT_SUPPORT_LIBRARY_VERSION         = "27.1.1"
 
+def DEFAULT_JODA_TIME_VERSION               = "2.10"
+
 android {
 
     compileSdkVersion rootProject.hasProperty('compileSdkVersion') ? rootProject.compileSdkVersion : DEFAULT_COMPILE_SDK_VERSION
@@ -31,7 +33,9 @@ android {
 }
 
 def supportLibVersion = rootProject.hasProperty('supportLibVersion')  ? rootProject.supportLibVersion : DEFAULT_SUPPORT_LIBRARY_VERSION
+def jodaTimeVersion = rootProject.hasProperty('jodaTimeVersion')  ? rootProject.jodaTimeVersion : DEFAULT_JODA_TIME_VERSION
 
 dependencies {
     implementation "com.android.support:support-annotations:$supportLibVersion"
+    implementation "joda-time:joda-time:$jodaTimeVersion"
 }
