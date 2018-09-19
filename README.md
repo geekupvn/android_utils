@@ -1,5 +1,5 @@
 ## GEEKUp Android Utils
-[![](https://jitpack.io/v/geekupvn/android_utils.svg)](https://jitpack.io/#geekupvn/android_utils)
+[![](https://jitpack.io/v/geekupvn/android_utils.svg)](https://jitpack.io/#geekupvn/android_utils) [![API](https://img.shields.io/badge/API-9%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=9)
 
 Current, this library contain `StringUtils` & `ScreenUtils` & `DateUtils`. It include some usefull method for you accelerate time to release feature in your project
 
@@ -19,7 +19,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	   	implementation 'com.github.geekupvn:android_utils:master'
+	   	implementation 'com.github.geekupvn:android_utils:v0.1.1'
 	}
 
 Step 3. Initialize
