@@ -24,8 +24,8 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation project(':utils')
-//    implementation 'com.github.geekupvn:android_utils:master'
+//    implementation project(':utils')
+    implementation 'com.github.geekupvn:android_utils:v0.1.1'
     implementation 'com.android.support:appcompat-v7:27.1.1'
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
     testImplementation 'junit:junit:4.12'
